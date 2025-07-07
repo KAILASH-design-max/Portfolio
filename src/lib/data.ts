@@ -61,7 +61,7 @@ export const projects: (ProjectInsightInput & { image: string, dataAiHint: strin
         projectName: "Expense Tracker",
         projectDescription: "Created a financial tracking tool for users to monitor income and categorized spending. Enabled budget visualization using dynamic charts and summaries.",
         technologiesUsed: "HTML, CSS, JavaScript",
-        image: "https://placehold.co/600x400.png",
+        image: "https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-4154-622f-a2a1-2003d1340a36/raw?se=2025-07-07T19%3A20%3A27Z&sp=r&sv=2024-08-04&sr=b&scid=cd052adb-a4c4-5395-a7ea-ab16d5fd07f7&skoid=a3412ad4-1a13-47ce-91a5-c07730964f35&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-07T08%3A56%3A13Z&ske=2025-07-08T08%3A56%3A13Z&sks=b&skv=2024-08-04&sig=iHMcSH%2BYCYvn8L1ASR3smWzgC5qOg/C1zkLaOLRBal8%3D",
         dataAiHint: "finance chart",
     },
     {
