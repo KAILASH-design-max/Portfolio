@@ -54,7 +54,7 @@ export const projects: (ProjectInsightInput & { image: string, dataAiHint: strin
         projectName: "Weather App",
         projectDescription: "Developed a mobile app providing real-time weather based on location. Displayed key metrics like temperature, humidity, and conditions through a clean, intuitive interface.",
         technologiesUsed: "Android Studio, OpenWeatherMap API",
-        image: "https://placehold.co/600x400.png",
+        image: "https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-ca3c-622f-bcc3-8ca48b9851ae/raw?se=2025-07-07T19%3A15%3A43Z&sp=r&sv=2024-08-04&sr=b&scid=d9ea5604-2ec6-5b9f-aa42-e69fa7b08faa&skoid=add8ee7d-5fc7-451e-b06e-a82b2276cf62&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-07T00%3A06%3A49Z&ske=2025-07-08T00%3A06%3A49Z&sks=b&skv=2024-08-04&sig=qsIurRGg3xdG9X87Omvu7t1jiH%2BI/ZiSBieIYKFjzQg%3D",
         dataAiHint: "weather forecast",
     },
     {
