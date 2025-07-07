@@ -13,7 +13,10 @@ export function Certifications() {
               <Award className="h-6 w-6 text-accent" />
               <div>
                 <h3 className="font-semibold">{cert.name}</h3>
-                <p className="text-sm text-muted-foreground">{cert.issuer}</p>
+                <p className="text-sm text-muted-foreground">
+                  {cert.issuer}
+                  {cert.date && <span className="font-normal"> &bull; {cert.date}</span>}
+                </p>
               </div>
             </CardContent>
           </Card>
