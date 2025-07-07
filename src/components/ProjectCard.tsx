@@ -79,8 +79,8 @@ export function ProjectCard({ project }: ProjectCardProps) {
           </div>
         )}
         {insight && (
-          <blockquote className="mt-4 border-l-2 border-accent bg-accent/10 p-3 rounded-r-md">
-            <p className="text-sm italic text-accent-foreground/90">{insight}</p>
+          <blockquote className="mt-4 bg-accent p-3 rounded-md">
+            <p className="text-sm italic text-accent-foreground">{insight}</p>
           </blockquote>
         )}
       </CardContent>
