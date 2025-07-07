@@ -51,6 +51,13 @@ export const projects: (ProjectInsightInput & { image: string, dataAiHint: strin
         dataAiHint: "grocery app",
     },
     {
+        projectName: "E-Grocery Website",
+        projectDescription: "Built a responsive online grocery store with product categories, cart functionality, and a filter-based search interface.",
+        technologiesUsed: "HTML, CSS, JavaScript",
+        image: "https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-c3c8-622f-88dc-a6ca9481465e/raw?se=2025-07-07T19%3A26%3A16Z&sp=r&sv=2024-08-04&sr=b&scid=50389900-e6cc-5ce9-b751-99eb0d18a31b&skoid=a3412ad4-1a13-47ce-91a5-c07730964f35&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-07T16%3A19%3A20Z&ske=2025-07-08T16%3A19%3A20Z&sks=b&skv=2024-08-04&sig=pMRxj3yBYzfOZ5pSNqtl4ndoxXeyljuIEfC/P/497go%3D",
+        dataAiHint: "grocery website",
+    },
+    {
         projectName: "Weather App",
         projectDescription: "Developed a mobile app providing real-time weather based on location. Displayed key metrics like temperature, humidity, and conditions through a clean, intuitive interface.",
         technologiesUsed: "Android Studio, OpenWeatherMap API",
@@ -63,13 +70,6 @@ export const projects: (ProjectInsightInput & { image: string, dataAiHint: strin
         technologiesUsed: "HTML, CSS, JavaScript",
         image: "https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-4154-622f-a2a1-2003d1340a36/raw?se=2025-07-07T19%3A20%3A27Z&sp=r&sv=2024-08-04&sr=b&scid=cd052adb-a4c4-5395-a7ea-ab16d5fd07f7&skoid=a3412ad4-1a13-47ce-91a5-c07730964f35&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-07T08%3A56%3A13Z&ske=2025-07-08T08%3A56%3A13Z&sks=b&skv=2024-08-04&sig=iHMcSH%2BYCYvn8L1ASR3smWzgC5qOg/C1zkLaOLRBal8%3D",
         dataAiHint: "finance chart",
-    },
-    {
-        projectName: "E-Grocery Website",
-        projectDescription: "Built a responsive online grocery store with product categories, cart functionality, and a filter-based search interface.",
-        technologiesUsed: "HTML, CSS, JavaScript",
-        image: "https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-c3c8-622f-88dc-a6ca9481465e/raw?se=2025-07-07T19%3A26%3A16Z&sp=r&sv=2024-08-04&sr=b&scid=50389900-e6cc-5ce9-b751-99eb0d18a31b&skoid=a3412ad4-1a13-47ce-91a5-c07730964f35&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-07T16%3A19%3A20Z&ske=2025-07-08T16%3A19%3A20Z&sks=b&skv=2024-08-04&sig=pMRxj3yBYzfOZ5pSNqtl4ndoxXeyljuIEfC/P/497go%3D",
-        dataAiHint: "grocery website",
     },
 ];
 
@@ -96,10 +96,10 @@ export const certifications = [
 ];
 
 export const skills = {
-    frontend: { name: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "ShadCN UI", "HTML/CSS", "JavaScript"], icon: Palette },
+    frontend: { name: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "ShadCN UI"], icon: Palette },
     backend: { name: "Backend", items: ["Firebase", "Firestore", "Firebase Auth", "Firebase Hosting"], icon: Server },
     tools: { name: "Tools & Platforms", items: ["Android Studio", "Visual Studio", "Git", "SQL Server", "MySQL"], icon: Terminal },
-    ai: { name: "AI/ML", items: ["Google Genkit", "Python"], icon: BrainCircuit },
+    ai: { name: "AI/ML", items: ["Google Genkit"], icon: BrainCircuit },
     soft: { name: "Soft Skills", items: ["Problem-solving", "Collaboration", "Communication"], icon: Users },
 };
 
@@ -114,4 +114,4 @@ export const extracurricular = [
     },
 ];
 
-export const resumeUrl = "/Kailash_Aman_Resume.pdf";
+export const resumeUrl = "https://drive.google.com/uc?export=download&id=1GBt2HRrMS31Zu-tDNf7gN5gBQDyiBBcj";

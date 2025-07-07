@@ -20,7 +20,7 @@ export function Footer() {
             </a>
           </Button>
           <Button variant="outline" asChild>
-            <a href={resumeUrl} download="Kailash_Aman_Resume.pdf">
+            <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
               <Download className="mr-2 h-4 w-4" /> Download Resume
             </a>
           </Button>

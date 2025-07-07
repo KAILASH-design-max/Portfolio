@@ -30,7 +30,7 @@ export function Hero() {
             </Button>
             <Separator orientation="vertical" className="mx-2 h-6" />
             <Button asChild>
-              <a href={resumeUrl} download="Kailash_Aman_Resume.pdf">
+              <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </a>
@@ -39,7 +39,7 @@ export function Hero() {
 
           <div className="md:hidden">
             <Button asChild size="sm">
-               <a href={resumeUrl} download="Kailash_Aman_Resume.pdf">
+               <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
                 <Download className="h-4 w-4" />
               </a>
             </Button>
