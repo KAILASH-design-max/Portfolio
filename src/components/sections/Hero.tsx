@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { name, contact, resumeUrl, location } from "@/lib/data";
+import { name, contact, resumeUrl, location, objective } from "@/lib/data";
 import { Download, Mail, Phone, MapPin } from "lucide-react";
 import { LinkedinIcon, GithubIcon } from "@/components/icons";
 import Link from "next/link";
@@ -63,6 +63,9 @@ export function Hero() {
               <MapPin className="h-4 w-4"/>
               <span>{location}</span>
           </div>
+           <p className="mt-6 max-w-xl text-muted-foreground">
+            <strong>🎯 Objective:</strong> {objective}
+          </p>
         </div>
         <div className="order-1 flex justify-center md:order-2">
             <Image
