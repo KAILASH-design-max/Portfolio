@@ -69,7 +69,7 @@ export function Hero() {
         </div>
         <div className="order-1 flex justify-center md:order-2">
             <Image
-            src="https://drive.google.com/uc?export=download&id=10KbyXTwMXgNbTwWlTP6RXH4bLSIg1Mrk"
+            src="https://drive.google.com/uc?export=view&id=10KbyXTwMXgNbTwWlTP6RXH4bLSIg1Mrk"
             alt="Kailash Kumar Aman"
             width={240}
             height={240}
