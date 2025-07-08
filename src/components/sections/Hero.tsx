@@ -64,7 +64,7 @@ export function Hero() {
               <span>{location}</span>
           </div>
            <p className="mt-6 max-w-xl text-muted-foreground">
-            <strong>🎯 Objective:</strong> {objective}
+            {objective}
           </p>
         </div>
         <div className="order-1 flex justify-center md:order-2">
