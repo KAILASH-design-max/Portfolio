@@ -7,6 +7,7 @@ export const contact = {
   phone: "+91 9939242281",
   email: "kailashkumaraman@gmail.com",
   linkedin: "https://linkedin.com/in/kailash-kumar-aman-345832265",
+  github: "https://github.com/KAILASH-design-max?tab=repositories",
 };
 
 export const objective = "Recent BCA graduate with hands-on experience in modern web technologies including React, Next.js, Firebase, and AI integration. Adept at building scalable full-stack applications and excited to contribute to fast-paced development teams with a focus on impactful, user-centric solutions.";

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { name, contact, resumeUrl } from "@/lib/data";
 import { Download, Mail, Phone } from "lucide-react";
-import { LinkedinIcon } from "@/components/icons";
+import { LinkedinIcon, GithubIcon } from "@/components/icons";
 import Link from "next/link";
 
 export function Footer() {
@@ -31,6 +31,9 @@ export function Footer() {
             </a>
             <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-colors">
               <LinkedinIcon className="h-6 w-6" />
+            </a>
+            <a href={contact.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-primary transition-colors">
+              <GithubIcon className="h-6 w-6" />
             </a>
             <a href={`tel:${contact.phone.replace(/\s/g, "")}`} aria-label="Phone" className="text-muted-foreground hover:text-primary transition-colors">
               <Phone className="h-6 w-6" />

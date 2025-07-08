@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { name, contact, resumeUrl, location } from "@/lib/data";
 import { Download, Mail, Phone, MapPin } from "lucide-react";
-import { LinkedinIcon } from "@/components/icons";
+import { LinkedinIcon, GithubIcon } from "@/components/icons";
 import Link from "next/link";
 
 export function Hero() {
@@ -21,6 +21,11 @@ export function Hero() {
             <Button variant="ghost" size="icon" asChild>
               <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <LinkedinIcon className="h-5 w-5" />
+              </a>
+            </Button>
+            <Button variant="ghost" size="icon" asChild>
+              <a href={contact.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <GithubIcon className="h-5 w-5" />
               </a>
             </Button>
              <Button variant="ghost" size="icon" asChild>
