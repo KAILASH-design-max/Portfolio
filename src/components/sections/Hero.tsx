@@ -4,6 +4,7 @@ import { name, contact, resumeUrl, location } from "@/lib/data";
 import { Download, Mail, Phone, MapPin } from "lucide-react";
 import { LinkedinIcon, GithubIcon } from "@/components/icons";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -52,7 +53,15 @@ export function Hero() {
         </div>
       </header>
 
-      <div className="container mx-auto px-4 py-20 text-center">
+      <div className="container mx-auto px-4 pt-12 pb-20 text-center">
+        <Image
+          src="https://storage.googleapis.com/pai-images/kailash-profile.png"
+          alt="Kailash Kumar Aman"
+          width={160}
+          height={160}
+          className="rounded-full mx-auto mb-6 border-4 border-primary/20 shadow-lg"
+          priority
+        />
         <h2 className="text-4xl font-extrabold tracking-tight text-primary md:text-5xl lg:text-6xl">{name}</h2>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground md:text-xl">
           Full-Stack Developer | React & AI Enthusiast
