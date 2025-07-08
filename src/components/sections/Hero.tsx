@@ -66,7 +66,7 @@ export function Hero() {
         </div>
         <div className="order-1 flex justify-center md:order-2">
             <Image
-            src="https://storage.googleapis.com/pai-images/kailash-profile.png"
+            src="https://drive.google.com/uc?export=download&id=10KbyXTwMXgNbTwWlTP6RXH4bLSIg1Mrk"
             alt="Kailash Kumar Aman"
             width={240}
             height={240}
