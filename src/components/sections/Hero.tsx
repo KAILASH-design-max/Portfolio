@@ -53,22 +53,26 @@ export function Hero() {
         </div>
       </header>
 
-      <div className="container mx-auto px-4 pt-12 pb-20 text-center">
-        <Image
-          src="https://storage.googleapis.com/pai-images/kailash-profile.png"
-          alt="Kailash Kumar Aman"
-          width={160}
-          height={160}
-          className="rounded-full mx-auto mb-6 border-4 border-primary/20 shadow-lg"
-          priority
-        />
-        <h2 className="text-4xl font-extrabold tracking-tight text-primary md:text-5xl lg:text-6xl">{name}</h2>
-        <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground md:text-xl">
-          Full-Stack Developer | React & AI Enthusiast
-        </p>
-        <div className="mt-8 flex items-center justify-center gap-2 text-sm text-muted-foreground">
-            <MapPin className="h-4 w-4"/>
-            <span>{location}</span>
+      <div className="container mx-auto grid grid-cols-1 items-center gap-12 px-4 py-20 md:grid-cols-2 md:gap-16 md:py-24">
+        <div className="order-2 flex flex-col items-center text-center md:order-1 md:items-start md:text-left">
+          <h2 className="text-4xl font-extrabold tracking-tight text-primary md:text-5xl lg:text-6xl">{name}</h2>
+          <p className="mt-4 max-w-xl text-lg text-muted-foreground md:text-xl">
+            Full-Stack Developer | React & AI Enthusiast
+          </p>
+          <div className="mt-8 flex items-center justify-center gap-2 text-sm text-muted-foreground md:justify-start">
+              <MapPin className="h-4 w-4"/>
+              <span>{location}</span>
+          </div>
+        </div>
+        <div className="order-1 flex justify-center md:order-2">
+            <Image
+            src="https://storage.googleapis.com/pai-images/kailash-profile.png"
+            alt="Kailash Kumar Aman"
+            width={240}
+            height={240}
+            className="rounded-full border-8 border-primary/20 shadow-lg"
+            priority
+            />
         </div>
       </div>
     </div>
