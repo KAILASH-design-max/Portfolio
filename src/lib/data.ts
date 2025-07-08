@@ -56,6 +56,7 @@ export const projects: (ProjectInsightInput & { image: string, dataAiHint: strin
         technologiesUsed: "HTML, CSS, JavaScript",
         image: "https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-c3c8-622f-88dc-a6ca9481465e/raw?se=2025-07-07T19%3A26%3A16Z&sp=r&sv=2024-08-04&sr=b&scid=50389900-e6cc-5ce9-b751-99eb0d18a31b&skoid=a3412ad4-1a13-47ce-91a5-c07730964f35&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-07T16%3A19%3A20Z&ske=2025-07-08T16%3A19%3A20Z&sks=b&skv=2024-08-04&sig=pMRxj3yBYzfOZ5pSNqtl4ndoxXeyljuIEfC/P/497go%3D",
         dataAiHint: "grocery website",
+        link: "https://drive.google.com/file/d/1PLdc_z-lIs25Wuhyp7Kup37dMGuUA4Lu/view?usp=drive_link",
     },
     {
         projectName: "Weather App",
