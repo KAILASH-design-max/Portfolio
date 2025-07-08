@@ -36,7 +36,7 @@ export const education = [
 export const experience = [
     {
         role: "Web Development Intern",
-        company: "Valueplus Outsourcing & Consultancy Services Pvt. Ltd.",
+        company: "Valueplus Outsourcing & Consultancy Services Pvt Ltd",
         period: "Feb 2025 – May 2025",
         description: "Contributed to the development of Quick Cart, an e-commerce grocery platform. Developed modules using PHP, HTML, CSS, and JavaScript including product listing, cart, and checkout. Gained exposure to frontend design, backend integration, bug fixing, and database operations.",
         icon: Briefcase,
