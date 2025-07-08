@@ -54,7 +54,7 @@ export function Hero() {
       </header>
 
       <div className="container mx-auto grid grid-cols-1 items-center gap-12 px-4 py-20 md:grid-cols-2 md:gap-16 md:py-24">
-        <div className="order-2 flex flex-col items-center text-center md:order-1 md:items-start md:text-left">
+        <div className="order-2 flex flex-col items-center text-center md:order-1 md:items-start md:text-left md:ml-8">
           <h2 className="text-4xl font-extrabold tracking-tight text-primary md:text-5xl lg:text-6xl">{name}</h2>
           <p className="mt-4 max-w-xl text-lg text-muted-foreground md:text-xl">
             Full-Stack Developer | React & AI Enthusiast
