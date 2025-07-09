@@ -70,7 +70,7 @@ export const projects: (ProjectInsightInput & { image: string, dataAiHint: strin
         projectName: "Expense Tracker",
         projectDescription: "Created a financial tracking tool for users to monitor income and categorized spending. Enabled budget visualization using dynamic charts and summaries.",
         technologiesUsed: "HTML, CSS, JavaScript",
-        image: "https://placehold.co/600x400.png",
+        image: "/expense tracker.png",
         dataAiHint: "finance chart",
     },
 ];
