@@ -55,7 +55,7 @@ export const projects: (ProjectInsightInput & { image: string, dataAiHint: strin
         projectName: "E-Grocery Website",
         projectDescription: "Built a responsive online grocery store with product categories, cart functionality, and a filter-based search interface.",
         technologiesUsed: "HTML, CSS, JavaScript",
-        image: "https://drive.google.com/uc?export=download&id=1Xa8Y3m2xZZXaAULYPVOPygdcKccCQM0o",
+        image: "/E-Grocery Website.png",
         dataAiHint: "grocery website",
         link: "https://drive.google.com/file/d/1PLdc_z-lIs25Wuhyp7Kup37dMGuUA4Lu/view?usp=drive_link",
     },
