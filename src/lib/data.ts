@@ -63,7 +63,7 @@ export const projects: (ProjectInsightInput & { image: string, dataAiHint: strin
         projectName: "Weather App",
         projectDescription: "Developed a mobile app providing real-time weather based on location. Displayed key metrics like temperature, humidity, and conditions through a clean, intuitive interface.",
         technologiesUsed: "Android Studio, OpenWeatherMap API",
-        image: "https://drive.google.com/uc?export=download&id=1dlWh4774uqjYB2djrd3JlDg5Fcmv-HvX",
+        image: "/Weather App.png",
         dataAiHint: "weather forecast",
     },
     {
