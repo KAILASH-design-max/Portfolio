@@ -48,7 +48,7 @@ export const projects: (ProjectInsightInput & { image: string, dataAiHint: strin
         projectName: "Blinkit-Style Grocery Platform with AI",
         projectDescription: "Built a multi-role grocery delivery system (Customer, Admin, Delivery Agent) using modern web technologies. Integrated AI-driven features like Smart Product Recommendations, Smart Shopping List Generator, and Cart-based Recipe Suggestions. Firebase handled backend functions including authentication, database (Firestore), and hosting.",
         technologiesUsed: "TypeScript, Next.js, React, Tailwind CSS, ShadCN UI, Genkit, Firebase",
-        image: "https://drive.google.com/uc?export=download&id=10bGLub9P3u5vivyGdS1MjK7tvQi38CWo",
+        image: "/Blinkit-Style Grocery Platform with AI.png",
         dataAiHint: "grocery app",
     },
     {
