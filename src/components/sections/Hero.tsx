@@ -71,9 +71,9 @@ export function Hero() {
             <Image
               src="/photo 1.jpg"
               alt="Kailash Kumar Aman"
-              width={160}
-              height={160}
-              className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-md"
+              width={192}
+              height={192}
+              className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-md"
               priority
             />
         </div>
