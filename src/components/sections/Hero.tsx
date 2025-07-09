@@ -69,12 +69,12 @@ export function Hero() {
         </div>
         <div className="order-1 flex justify-center md:order-2">
             <Image
-            src="https://drive.google.com/uc?export=view&id=10KbyXTwMXgNbTwWlTP6RXH4bLSIg1Mrk"
-            alt="Kailash Kumar Aman"
-            width={240}
-            height={240}
-            className="rounded-full border-8 border-primary/20 shadow-lg"
-            priority
+              src="https://drive.google.com/uc?export=view&id=10KbyXTwMXgNbTwWlTP6RXH4bLSIg1Mrk"
+              alt="Kailash Kumar Aman"
+              width={160}
+              height={160}
+              className="rounded-full object-cover border-4 border-white shadow-md"
+              priority
             />
         </div>
       </div>
