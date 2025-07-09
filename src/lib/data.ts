@@ -1,3 +1,4 @@
+
 import type { ProjectInsightInput } from "@/ai/flows/project-insight-generator";
 import { Briefcase, GraduationCap, Code, Mic, Trophy, Languages, Star, GitBranch, Terminal, Palette, Server, BrainCircuit, Users } from 'lucide-react';
 
@@ -53,7 +54,7 @@ export const projects: (ProjectInsightInput & { image: string, dataAiHint: strin
     },
     {
         projectName: "E-Grocery Website",
-        projectDescription: "Built a responsive online grocery store with product categories, cart functionality, and a filter-based search interface.",
+        projectDescription: "Developed a fully responsive and user-friendly online grocery shopping website aimed at simulating the core features of a real-world e-commerce grocery platform. The application allows users to seamlessly browse a wide range of grocery products organized by categories such as Fruits, Vegetables, Dairy, Beverages, and more.",
         technologiesUsed: "HTML, CSS, JavaScript",
         image: "/E-Grocery Website.png",
         dataAiHint: "grocery website",
