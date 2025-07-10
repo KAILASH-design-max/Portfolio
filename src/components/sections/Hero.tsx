@@ -69,7 +69,7 @@ export function Hero() {
         </div>
         <div className="order-1 flex justify-center md:order-2">
             <Image
-              src="/photo 1.jpg"
+              src="/photo%201.jpg"
               alt="Kailash Kumar Aman"
               width={192}
               height={192}
