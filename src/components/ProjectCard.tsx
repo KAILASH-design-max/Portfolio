@@ -44,7 +44,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
   return (
     <Card className="flex flex-col h-full overflow-hidden shadow-lg transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl dark:hover:shadow-primary/20">
-      <div className="relative h-48 w-full">
+      <div className="relative h-64 w-full">
         <Image
           src={project.image}
           alt={project.projectName}
