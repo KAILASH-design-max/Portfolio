@@ -3,7 +3,7 @@ import type { ProjectInsightInput } from "@/ai/flows/project-insight-generator";
 import { Briefcase, GraduationCap, Code, Mic, Trophy, Languages, Star, GitBranch, Terminal, Palette, Server, BrainCircuit, Users } from 'lucide-react';
 
 export const name = "Kailash Kumar Aman";
-export const location = "Sobhan Shankarpur, Darbhanga, Bihar – 846005";
+export const location = "A-011, Nava Gokulam, babusaplya, Bangalore -560043";
 export const contact = {
   phone: "+91 9939242281",
   email: "kailashkumaraman@gmail.com",
