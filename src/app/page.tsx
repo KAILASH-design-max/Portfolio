@@ -10,26 +10,20 @@ import { Skills } from "@/components/sections/Skills";
 
 export default function Home() {
   return (
-    <div className="bg-background text-foreground">
+    <div className="bg-background text-foreground min-h-screen">
       <Hero />
-      <main className="container mx-auto px-4 py-16 space-y-24">
+      <main className="container mx-auto px-4 py-16 sm:py-24 space-y-24 sm:space-y-32">
         <About />
-        <Experience />
         <Projects />
-        
-        <div className="grid gap-16 md:grid-cols-5">
-            <div className="md:col-span-3">
-                <Skills />
-            </div>
-            <div className="md:col-span-2">
-                <Education />
-            </div>
+        <Experience />
+        <Skills />
+
+        <div className="grid gap-12 lg:grid-cols-2">
+          <Education />
+          <Certifications />
         </div>
-        
-        <div className="grid gap-16 md:grid-cols-2">
-           <Publications />
-           <Certifications />
-        </div>
+
+        <Publications />
       </main>
       <Footer />
     </div>

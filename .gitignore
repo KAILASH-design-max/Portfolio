@@ -43,3 +43,9 @@ next-env.d.ts
 # firebase
 firebase-debug.log
 firestore-debug.log
+
+# local IDE & agent metadata
+.agents/
+metadata.json
+studio.json
+skills-lock.json
